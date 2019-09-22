@@ -1,6 +1,4 @@
-libraries {
-  lib('jenkins-shared-libraries@master')
-}
+@Library('jenkins-shared-libraries@master') _
 
 pipeline {
     agent any	
@@ -15,7 +13,7 @@ pipeline {
         stage('Test') {
             steps {
 			
-                pipeline('Dave')
+                sayHello 'Dave'
 				
             }
         }
