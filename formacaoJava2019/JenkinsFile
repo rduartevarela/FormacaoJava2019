@@ -10,13 +10,9 @@ pipeline {
                 bat 'mvn install -f formacaoJava2019/pom.xml'
             }
         }
-        stage('Test') {
-            steps {
-			
-                testtest()
-				
-            }
-        }
+		
+		testtest()
+		
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
