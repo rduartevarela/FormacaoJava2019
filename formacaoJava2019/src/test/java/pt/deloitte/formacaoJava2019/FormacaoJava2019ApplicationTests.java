@@ -11,6 +11,7 @@ public class FormacaoJava2019ApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		assert(true);
 	}
 
 }
