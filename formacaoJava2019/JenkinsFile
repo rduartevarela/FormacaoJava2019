@@ -1,5 +1,4 @@
-@Library('jenkins-shared-libraries')
-import pt.deloitte.*
+@Library('jenkins-shared-libraries@master') _
 
 pipeline {
     agent any	
