@@ -13,7 +13,7 @@ pipeline {
         stage('Test') {
             steps {
 			
-                pipeline()
+                sayHello 'Dave'
 				
             }
         }
