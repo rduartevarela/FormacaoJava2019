@@ -12,7 +12,7 @@ pipeline {
 		stage('Test') {
 			steps {
 			
-				echomyname("Ricardo")
+				echomyname name: "Ricardo", location="Java Formacao"
 				
 			}
 		}
