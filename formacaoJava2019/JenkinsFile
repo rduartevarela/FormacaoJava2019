@@ -14,7 +14,7 @@ pipeline {
 		stage('Test') {
 			steps {
 			
-				echomyname([name:"Ricardo", location:"FormacaoJava", currentbuild: currentBuild.number])
+				echomyname([name:"Varela", location:"FormacaoJava", currentbuild: currentBuild.number])
 				
 			}
 		}
