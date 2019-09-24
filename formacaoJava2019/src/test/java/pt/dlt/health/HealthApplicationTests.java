@@ -1,4 +1,4 @@
-package pt.deloitte.formacaoJava2019;
+package pt.dlt.health;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,11 +7,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class FormacaoJava2019ApplicationTests {
+public class HealthApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		assert(true);
 	}
 
 }
